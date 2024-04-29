@@ -1,0 +1,21 @@
+{
+    "name": "Meta.Voice.Hub.Editor",
+    "rootNamespace": "Meta.Voice.Hub",
+    "references": [
+        "GUID:8e054d88729a3fb4bbe539499f824363",
+        "GUID:4c3436cc699cb25459568e9fa95b7fd7",
+        "GUID:a32f21e557428c84e845c18e46d9284f",
+        "GUID:a7c32ded21d3b9b42a71cdf39f2ed8da"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
