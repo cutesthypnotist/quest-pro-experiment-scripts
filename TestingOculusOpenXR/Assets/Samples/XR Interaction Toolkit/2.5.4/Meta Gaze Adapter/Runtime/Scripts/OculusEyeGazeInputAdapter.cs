@@ -198,7 +198,7 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.MetaGazeAdapter
             if (m_EyeGazeDevice != null && m_EyeGazeDevice.added)
                 return;
 
-            m_EyeGazeDevice = InputSystem.InputSystem.AddDevice<EyeGazeInteraction.EyeGazeDevice>();
+            m_EyeGazeDevice = InputSystem.InputSystem.AddDevice<EyeGazeDevice>();
             if (m_EyeGazeDevice == null)
             {
                 Debug.LogError("Failed to create Eye Gaze device.", this);
